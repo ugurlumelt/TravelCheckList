@@ -11,7 +11,7 @@ import SwiftUI
 struct TravelCheckListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TravelListView()
         }
     }
 }

@@ -11,6 +11,10 @@
 		5477E0DA2C50783200F3B483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E0D92C50783200F3B483 /* ContentView.swift */; };
 		5477E0DC2C50783300F3B483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5477E0DB2C50783300F3B483 /* Assets.xcassets */; };
 		5477E0DF2C50783300F3B483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5477E0DE2C50783300F3B483 /* Preview Assets.xcassets */; };
+		5477E0E62C507AA500F3B483 /* TravelCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E0E52C507AA500F3B483 /* TravelCheckModel.swift */; };
+		5477E0E82C507C3C00F3B483 /* TravelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E0E72C507C3C00F3B483 /* TravelListView.swift */; };
+		5477E0EA2C507CB300F3B483 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E0E92C507CB300F3B483 /* TravelDetailView.swift */; };
+		5477E0EC2C50F51500F3B483 /* SeenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E0EB2C50F51500F3B483 /* SeenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		5477E0D92C50783200F3B483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5477E0DB2C50783300F3B483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5477E0DE2C50783300F3B483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5477E0E52C507AA500F3B483 /* TravelCheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckModel.swift; sourceTree = "<group>"; };
+		5477E0E72C507C3C00F3B483 /* TravelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListView.swift; sourceTree = "<group>"; };
+		5477E0E92C507CB300F3B483 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		5477E0EB2C50F51500F3B483 /* SeenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				5477E0D72C50783200F3B483 /* TravelCheckListApp.swift */,
 				5477E0D92C50783200F3B483 /* ContentView.swift */,
+				5477E0E52C507AA500F3B483 /* TravelCheckModel.swift */,
+				5477E0E72C507C3C00F3B483 /* TravelListView.swift */,
+				5477E0E92C507CB300F3B483 /* TravelDetailView.swift */,
+				5477E0EB2C50F51500F3B483 /* SeenButton.swift */,
 				5477E0DB2C50783300F3B483 /* Assets.xcassets */,
 				5477E0DD2C50783300F3B483 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5477E0EA2C507CB300F3B483 /* TravelDetailView.swift in Sources */,
+				5477E0E82C507C3C00F3B483 /* TravelListView.swift in Sources */,
+				5477E0E62C507AA500F3B483 /* TravelCheckModel.swift in Sources */,
 				5477E0DA2C50783200F3B483 /* ContentView.swift in Sources */,
+				5477E0EC2C50F51500F3B483 /* SeenButton.swift in Sources */,
 				5477E0D82C50783200F3B483 /* TravelCheckListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
